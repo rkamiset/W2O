@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="108558" started-at="2020-04-22T23:01:17 MST" finished-at="2020-04-22T23:03:06 MST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="108558" started-at="2020-04-22T23:01:17 MST" finished-at="2020-04-22T23:03:06 MST">
+      <class name="Test1">
+        <test-method status="PASS" signature="Test1()[pri:0, instance:Test1@26aa12dd]" name="Test1" duration-ms="10876" started-at="2020-04-22T23:02:18 MST" finished-at="2020-04-22T23:02:29 MST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test1 -->
+      </class> <!-- Test1 -->
+      <class name="AutoDocker">
+        <test-method status="PASS" signature="startDocker()[pri:0, instance:AutoDocker@131276c2]" name="startDocker" is-config="true" duration-ms="60103" started-at="2020-04-22T23:01:17 MST" finished-at="2020-04-22T23:02:18 MST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDocker -->
+        <test-method status="PASS" signature="stopDocker()[pri:0, instance:AutoDocker@131276c2]" name="stopDocker" is-config="true" duration-ms="30010" started-at="2020-04-22T23:02:36 MST" finished-at="2020-04-22T23:03:06 MST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopDocker -->
+      </class> <!-- AutoDocker -->
+      <class name="Test3">
+        <test-method status="PASS" signature="Test3()[pri:0, instance:Test3@711f39f9]" name="Test3" duration-ms="13801" started-at="2020-04-22T23:02:18 MST" finished-at="2020-04-22T23:02:32 MST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test3 -->
+      </class> <!-- Test3 -->
+      <class name="Test2">
+        <test-method status="PASS" signature="Test2()[pri:0, instance:Test2@3fd7a715]" name="Test2" duration-ms="18294" started-at="2020-04-22T23:02:18 MST" finished-at="2020-04-22T23:02:36 MST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test2 -->
+      </class> <!-- Test2 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
